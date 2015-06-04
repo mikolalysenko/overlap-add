@@ -1,18 +1,17 @@
 {
   "name": "overlap-add",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Additive synthesis of signals",
   "main": "overlap.js",
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "tape": "~1.0.4"
+    "tape": "^4.0.0"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
